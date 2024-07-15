@@ -10,11 +10,16 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="#DF3152" />
   <title>UPLOAD FILE</title>
-  <link rel="stylesheet" href="style_1.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
- <h1>Hello there are you happy to decide </h1>
+  <div class="main">
+    <form action='/upload' method='post' enctype='multipart/form-data'>
+      <input type='file' name='file'>
+      <button type='submit'>Submit</button>
+    </form>
+  </div>
+ <h1>UPLOAD SITE</h1>
  
  
 </body>
