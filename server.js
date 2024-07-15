@@ -11,7 +11,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-  res.send({ type: 200 })
+  res.send('Hello world!!!');
 });
 
 app.listen(process.env.PORT, (err) => {
